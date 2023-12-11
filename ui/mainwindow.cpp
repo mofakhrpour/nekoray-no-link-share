@@ -1114,8 +1114,8 @@ void MainWindow::on_proxyListTable_itemDoubleClicked(QTableWidgetItem *item) {
         refresh_status();
         return;
     }
-    auto dialog = new DialogEditProfile("", id, this);
-    connect(dialog, &QDialog::finished, dialog, &QDialog::deleteLater);
+    // auto dialog = new DialogEditProfile("", id, this);
+    // connect(dialog, &QDialog::finished, dialog, &QDialog::deleteLater);
 }
 
 void MainWindow::on_menu_add_from_input_triggered() {

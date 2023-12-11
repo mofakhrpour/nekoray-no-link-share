@@ -83,7 +83,7 @@ namespace NekoGui {
 
         // Flags
         QStringList argv = {};
-        bool flag_use_appdata = false;
+        bool flag_use_appdata = true;
         bool flag_many = false;
         bool flag_tray = false;
         bool flag_debug = false;
