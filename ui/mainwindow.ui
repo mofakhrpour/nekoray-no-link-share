@@ -559,7 +559,7 @@
     <addaction name="separator"/>
     <addaction name="menu_select_all"/>
     <addaction name="menu_move"/>
-    <addaction name="menu_clone"/>
+    <!-- <addaction name="menu_clone"/> -->
     <addaction name="menu_reset_traffic"/>
     <addaction name="menu_delete"/>
     <addaction name="separator"/>
@@ -568,7 +568,7 @@
     <addaction name="menuCurrent_Select"/>
     <addaction name="menuCurrent_Group"/>
     <addaction name="separator"/>
-    <addaction name="menu_profile_debug_info"/>
+    <!-- <addaction name="menu_profile_debug_info"/> -->
     <addaction name="separator"/>
    </widget>
    <addaction name="menu_program"/>
@@ -642,11 +642,11 @@
     <string>Add profile from clipboard</string>
    </property>
   </action>
-  <action name="menu_profile_debug_info">
+  <!-- <action name="menu_profile_debug_info">
    <property name="text">
     <string>Debug Info</string>
    </property>
-  </action>
+  </action> -->
   <!-- <action name="menu_qr">
    <property name="text">
     <string>QR Code and link</string>
@@ -822,14 +822,14 @@
     <bool>false</bool>
    </property>
   </action>
-  <action name="menu_copy_links">
+  <!-- <action name="menu_copy_links">
    <property name="text">
     <string>Copy links of selected</string>
    </property>
    <property name="shortcut">
     <string notr="true">Ctrl+C</string>
    </property>
-  </action>
+  </action> -->
   <action name="menu_spmode_vpn">
    <property name="checkable">
     <bool>true</bool>
@@ -838,14 +838,14 @@
     <string>Enable Tun</string>
    </property>
   </action>
-  <action name="menu_clone">
+  <!-- <action name="menu_clone">
    <property name="text">
     <string>Clone</string>
    </property>
    <property name="shortcut">
     <string notr="true">Ctrl+D</string>
    </property>
-  </action>
+  </action> -->
   <action name="menu_update_subscription">
    <property name="text">
     <string>Update subscription</string>
