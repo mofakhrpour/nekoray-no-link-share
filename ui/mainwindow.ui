@@ -518,7 +518,7 @@
     <property name="title">
      <string>Server</string>
     </property>
-    <widget class="QMenu" name="menu_share_item">
+    <!-- <widget class="QMenu" name="menu_share_item">
      <property name="title">
       <string>Share</string>
      </property>
@@ -527,7 +527,7 @@
      <addaction name="separator"/>
      <addaction name="menu_copy_links"/>
      <addaction name="menu_copy_links_nkr"/>
-    </widget>
+    </widget> -->
     <widget class="QMenu" name="menuCurrent_Group">
      <property name="title">
       <string>Current Group</string>
@@ -655,11 +655,11 @@
     <string notr="true">Ctrl+Q</string>
    </property>
   </action>
-  <action name="menu_copy_link">
+  <!-- <action name="menu_copy_link">
    <property name="text">
     <string>Copy Link</string>
    </property>
-  </action>
+  </action> -->
   <action name="menu_tcp_ping">
    <property name="text">
     <string notr="true">Tcp Ping</string>
@@ -798,14 +798,14 @@
     <string notr="true">Ctrl+A</string>
    </property>
   </action>
-  <action name="menu_copy_links_nkr">
+  <!-- <action name="menu_copy_links_nkr">
    <property name="text">
     <string>Copy links of selected (Neko Links)</string>
    </property>
    <property name="shortcut">
     <string notr="true">Ctrl+Alt+C</string>
    </property>
-  </action>
+  </action> -->
   <action name="actionfake_2">
    <property name="text">
     <string>fake</string>
