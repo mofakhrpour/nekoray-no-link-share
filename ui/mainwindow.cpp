@@ -380,16 +380,16 @@ MainWindow::MainWindow(QWidget *parent) : QMainWindow(parent), ui(new Ui::MainWi
     });
     set_selected_or_group(2);
     //
-    connect(ui->menu_share_item, &QMenu::aboutToShow, this, [=] {
-        QString name;
-        auto selected = get_now_selected_list();
-        if (!selected.isEmpty()) {
-            auto ent = selected.first();
-            name = ent->bean->DisplayCoreType();
-        }
-        ui->menu_export_config->setVisible(name == software_core_name);
-        ui->menu_export_config->setText(tr("Export %1 config").arg(name));
-    });
+    // connect(ui->menu_share_item, &QMenu::aboutToShow, this, [=] {
+    //     QString name;
+    //     auto selected = get_now_selected_list();
+    //     if (!selected.isEmpty()) {
+    //         auto ent = selected.first();
+    //         name = ent->bean->DisplayCoreType();
+    //     }
+    //     ui->menu_export_config->setVisible(name == software_core_name);
+    //     ui->menu_export_config->setText(tr("Export %1 config").arg(name));
+    // });
     refresh_status();
 
     // Prepare core
